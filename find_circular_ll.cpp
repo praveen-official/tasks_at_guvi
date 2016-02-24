@@ -28,7 +28,7 @@ public:
             temporary->next=pointer;
             temporary=pointer;
             pointer->data=user_data;
-            pointer->next=NULL;
+            pointer->next=head;
             return 1;
         }
     }
